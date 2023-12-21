@@ -2,7 +2,9 @@
 |__________________________[Menu do programa]____________________________|
 |       Nome      | Linha | tipo |              Propósito                |
 |_________________|_______|______|_______________________________________|
-|      wi-fi      |  35   |      | Declarar a rede wifi                  |
+|      wi-fi      |  40   |      | Declarar a rede wifi                  |
+|      MQ-135     |  48   |      | Declarar as definições do MQ-135      |
+|       MPU       |  58   |      | Declarar as definições do MPU-6050    |
 |    ThingSpeak   |  40   |      | Informações do canal/campos           |
 |      tempo      |  50   |      | Definir marcas temporais              |
 |       DHT       |  54   |      | Definir pinos e tipo do DHT           | 
@@ -19,6 +21,7 @@
 |                                                                        |
 |________________________________________________________________________|
 
+Boas Festas :D
 */
 
 //Inclusões
@@ -36,9 +39,8 @@
 #include <Adafruit_MPU6050.h>
 
 //Definições da rede Wi-fi
-
-const char* SSID = "jonanivo";  //Intengele_IOT
-const char* Senha = "peixefrito";     //1Nt3n83!3
+const char* SSID = "Intengele_IOT";  
+const char* Senha = "1Nt3n83!3";     
 
 //Definições do Wi-Fi
 WiFiClient espClient;
