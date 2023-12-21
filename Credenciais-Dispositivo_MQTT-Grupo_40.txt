@@ -1,0 +1,3 @@
+username = EzgxMjsoNhw1JDcLAg4QESk
+clientId = EzgxMjsoNhw1JDcLAg4QESk
+password = yH+X7iPdlU+g36SeG/i02vap

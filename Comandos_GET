@@ -1,0 +1,13 @@
+Alguns comandos para manipular ou inspecionar dados em um canal ThingSpeak via cURL, Postman, MQTXX e outros
+
+Publicar dados em um campo:
+GET https://api.thingspeak.com/update?api_key=//API_KEY//&field//CAMPO//=//VALOR//
+Exemplo: GET https://api.thingspeak.com/update?api_key=A5GV8HQS6ISJOB11&field1=0
+
+Inspecionar os dados enviados a um canal:
+GET https://api.thingspeak.com/channels/2272751/feeds.json?api_key=//API_KEY//&results=2
+Exemplo: GET https://api.thingspeak.com/channels/2272751/feeds.json?api_key=8CRC0ZB5OIYA7FVH&results=2
+
+Inspecionar valor de um campo:
+GET https://api.thingspeak.com/channels/2272751/fields/1.json?api_key=//API_KEY//&results=2
+Exemplo: GET https://api.thingspeak.com/channels/2272751/fields/1.json?api_key=8CRC0ZB5OIYA7FVH&results=2
