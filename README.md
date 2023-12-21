@@ -2,7 +2,7 @@
 
 Visão Geral
 
-O de sensor de bem estar será feito pelo grupo 40 como projeto semestral da disciplina de Introdução à Engenharia Elétrica (0323100), e será um módulo que tem 
+O sensor de bem estar será feito pelo grupo 40 como projeto semestral da disciplina de Introdução à Engenharia Elétrica (0323100), e será um módulo que tem 
 como base um microcontrolador embarcado ESP32 integrado aos sensores:
 
 - DHT22 (Temperatura e Umidade)
