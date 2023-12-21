@@ -2,30 +2,27 @@
 |__________________________[Menu do programa]____________________________|
 |       Nome      | Linha | tipo |              Propósito                |
 |_________________|_______|______|_______________________________________|
-|      wi-fi      |  35   |      | Declarar a rede wifi                  |
-|    ThingSpeak   |  40   |      | Informações do canal/campos           |
-|      tempo      |  50   |      | Definir marcas temporais              |
-|       DHT       |  54   |      | Definir pinos e tipo do DHT           | 
-|     LED-RGB     |  59   |      | Definir pinos do LED-RGB              |  
-|     microSD     |  64   |      | Definir o pino CS                     |
-|     mudarCor    |  68   | void | recebe as cores do LED-RGB            |
-|   conectarMQTT  |  83   | void | estabelecer conecção com broker       |
-|     callback    |  102  | void | receber mensagens do broker           |
-|  publishMessage |  115  | void | publicar mensagens em um canal        |
-|     escrever    |  120  | bool | Anexar um valor no arquivo do cartão  |
-|      setup      |  146  | void | inicializar diversos aspectos         |
-|      loop       |  191  | void | rodar o programa continuamente        |
-|                                                                        |     
-|                                                                        |
+|      wi-fi      |  39   |      | Declarar a rede wifi                  |
+|      MQ-135     |  47   |      | Declarar as definições do MQ-135      |
+|       MPU       |  57   |      | Declarar as definições do MPU-6050    |
+|      tempo      |  59   |      | Definir marcas temporais              |
+|       DHT       |  63   |      | Definir pinos e tipo do DHT           | 
+|       KY        |  68   |      | Definir pinos e tipo do KY-037        | 
+|     LED-RGB     |  74   |      | Definir pinos do LED-RGB              |  
+|     microSD     |  79   |      | Definir o pino CS                     |
+|     mudarCor    |  88   | void | recebe as cores do LED-RGB            |
+|       NTP       |  95   |      | Declarar as definições do NTP         |
+|     escrever    |  98   | bool | Anexar um valor no arquivo do cartão  |
+|      setup      |  133  | void | inicializar diversos aspectos         |
+|      loop       |  259  | void | rodar o programa continuamente        |
 |________________________________________________________________________|
 
+Boas Festas :D
 */
 
 //Inclusões
 #include "DHT.h"
 #include <WiFi.h>
-#include "ThingSpeak.h"
-#include <PubSubClient.h>
 #include <WiFiClient.h>
 #include <SD.h>
 #include <SPI.h>
